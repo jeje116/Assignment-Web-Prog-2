@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    padding: 1vw 3.5vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar1 button {
+    padding: 1vw 2vw;
+    transition: ease-out 0.5s;
+}
+
+.navbar1 button:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.check {
+    height: 2.5vw;
+    width: 2.5vw;
+    z-index: 2;
+    opacity: 0;
+    right: 0;
+    display: none;
+}
+
+svg {
+    height: 2.5vw;
+    width: 2.5vw;
+    position: absolute;
+    top: 1vw;
+    right: 3.5vw;
+    display: none;
+}
+
+.button a {
+    display: block;
+}
+
+.about_section {
+    padding: 0 5vw;
+}
+
+.about_section_content {
+    width: 45vw;
+}
+
+.textBut{
+    font-size: 1.3vw;
+}
+
+.text1 {
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.text2 {
+    font-size: 3vw;
+}
+
+.text3 {
+    font-size: 1.2vw;
+    line-height: 2.1vw;
+}
+
+.text4 {
+    font-size: 2vw;
+    line-height: 2.2vw;
+}
+
+.foto {
+    padding: 2vw 0;
+}
+
+.foto img {
+    width:  55vw;
+}
+
+.detail, .skills_hobbies {
+    width: 50vw;
+}
+
+.education {
+    width: 80vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .check {
+        display: block;
+    }
+    
+    svg {
+        display: block;
+    }
+
+    .button {
+        position: absolute;
+        right: 3.5vw;
+        top: 3.8vw;
+        background-color: white;
+        display: none;
+    }
+
+    .button a {
+        display: block;
+        border: 0.1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5vw 1vw;
+        font-size: 1.3vw;
+        margin: 0;
+    }
+
+    .check:checked ~ .button {
+        display: block;
+    }
+}
