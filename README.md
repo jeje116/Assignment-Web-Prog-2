@@ -1,23 +1,23 @@
 Page Screenshots
 --------------------------------------
 
-### Jasons
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageJasons.png" alt="License" style="width: 500px">
+### Home
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/home.png" alt="License" style="width: 500px">
  
 --------------------------------------
 
-### Matthew
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageMatthew.png" alt="License" style="width: 500px">
+### About Me
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/about_me.png" alt="License" style="width: 500px">
  
 --------------------------------------
 
-### Vika
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageVika.png" alt="License" style="width: 500px">
+### Personal Info
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/personal_info.png" alt="License" style="width: 500px">
  
 --------------------------------------
 
-### Vieren
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageVieren.png" alt="License" style="width: 500px">
+### Education
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/education.png" alt="License" style="width: 500px">
  
 --------------------------------------
 
@@ -63,23 +63,11 @@ Installation
     - Jika pada saat menjalankan syntax ini terdapat error tidak dapat menemukan file .env, maka rename dahulu file .env.example menjadi .env kemudian jalankan kembali syntax tersebut
     
     - Jika terdapat error "vite manifest not found" pada web, lakukan:
-      1. ```
-         npm install --save-dev vite laravel-vite-plugin
-         ```
-      2. Lalu update package.json file "scripts": { "dev": "vite", "build": "vite build" }
-      3. ```
-         npm run build
-         ```
+       ```
+       npm install --save-dev vite laravel-vite-plugin
+       ```
     
     - Menjalankan laravel
       ```
       php artisan serve
       ```
-      
-Contributors
---------------------------------------
-Profile prototype ini dibuat oleh:
-1. Matthew Christian Hadiprasetya (2440005252)
-2. Jasons Januard Bongtari (2440062123)
-3. Vika Valencia Susanto (2440079162)
-4. Vieren Cristian (2440102202)
