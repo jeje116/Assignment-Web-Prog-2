@@ -2,22 +2,22 @@ Page Screenshots
 --------------------------------------
 
 ### Home
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/home.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Assignment-Web-Prog-2/blob/main/ssPage/homepng.png" alt="" style="width: 500px">
  
 --------------------------------------
 
 ### About Me
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/about_me.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Assignment-Web-Prog-2/blob/main/ssPage/about_me.png" alt="" style="width: 500px">
  
 --------------------------------------
 
 ### Personal Info
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/personal_info.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Assignment-Web-Prog-2/blob/main/ssPage/personal_info.png" alt="" style="width: 500px">
  
 --------------------------------------
 
 ### Education
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/education.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Assignment-Web-Prog-2/blob/main/ssPage/education.png" alt="" style="width: 500px">
  
 --------------------------------------
 
