@@ -14,21 +14,34 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Home', ['temp' => 1]);
+    return view('JejeHome', ['temp' => 1]);
 });
 
-Route::get('/Home/{temp}', function($temp){   
-    return view('Home', ['temp' => $temp]);
+Route::get('/JejeHome/{temp}', function($temp){   
+    return view('JejeHome', ['temp' => $temp]);
 });
 
-Route::get('/vika', function () {
-    return view('vika');
+
+Route::get('/vikaHome', function () {
+    return view('vikaHome', ['temp' => 1]);
 });
 
-Route::get('/vieren', function () {
-    return view('vieren');
+Route::get('/vikaHome/{temp}', function($temp){   
+    return view('vikaHome', ['temp' => $temp]);
 });
 
-Route::get('/matt', function () {
-    return view('matt');
+Route::get('/vierenHome', function () {
+    return view('vierenHome', ['temp' => 1]);
+});
+
+Route::get('/vierenHome/{temp}', function($temp){   
+    return view('vierenHome', ['temp' => $temp]);
+});
+
+Route::get('/mattHome', function () {
+    return view('mattHome', ['temp' => 1]);
+});
+
+Route::get('/mattHome/{temp}', function($temp){   
+    return view('mattHome', ['temp' => $temp]);
 });

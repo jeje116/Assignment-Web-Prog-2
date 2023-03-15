@@ -16,9 +16,9 @@
 
             <div class = "button font-bold font-serif text-slate-900 flex">
                 <a class = "textBut md:mr-10 mr-5" href="\">Jasons</a>
-                <a class = "textBut md:mr-10 mr-5" href="/matt">Matthew</a>
-                <a class = "textBut md:mr-10 mr-5" href="/vieren">Vieren</a>
-                <a class = "textBut" href="/vika">Vika</a>
+                <a class = "textBut md:mr-10 mr-5" href="/mattHome">Matthew</a>
+                <a class = "textBut md:mr-10 mr-5" href="/vierenHome">Vieren</a>
+                <a class = "textBut" href="/vikaHome">Vika</a>
             </div>
         </div>
 
